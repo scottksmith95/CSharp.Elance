@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{09B31C6A-237D-4A16-8A59-B723ABBCE73D}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Spring</RootNamespace>
+    <AssemblyName>Spring.Social.Core</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkSubset>Client</TargetFrameworkSubset>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\..\build\VS2008-NET20\Spring.Social.Core\Debug\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;NET_2_0;$(DefineExtraConstants)</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>Spring.Social.Core.xml</DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\..\build\VS2008-NET20\Spring.Social.Core\Release\</OutputPath>
+    <DefineConstants>TRACE;NET_2_0;$(DefineExtraConstants)</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>Spring.Social.Core.xml</DocumentationFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Spring.Rest, Version=1.0.1.17720, Culture=neutral, PublicKeyToken=65e474d141e25e07, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\lib\net\2.0\Spring.Rest.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="..\CommonAssemblyInfo.cs">
+      <Link>Properties\CommonAssemblyInfo.cs</Link>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Social\IApiBinding.cs" />
+    <Compile Include="Social\IServiceProvider.cs" />
+    <Compile Include="Social\OAuth1\AbstractOAuth1ApiBinding.cs" />
+    <Compile Include="Social\OAuth1\AbstractOAuth1ServiceProvider.cs" />
+    <Compile Include="Social\OAuth1\AuthorizedRequestToken.cs" />
+    <Compile Include="Social\OAuth1\IOAuth1Operations.cs" />
+    <Compile Include="Social\OAuth1\IOAuth1ServiceProvider.cs" />
+    <Compile Include="Social\OAuth1\OAuth1Parameters.cs" />
+    <Compile Include="Social\OAuth1\OAuth1RequestInterceptor.cs" />
+    <Compile Include="Social\OAuth1\OAuth1Template.cs" />
+    <Compile Include="Social\OAuth1\OAuth1Version.cs" />
+    <Compile Include="Social\OAuth1\OAuthToken.cs" />
+    <Compile Include="Social\OAuth1\SigningSupport.cs" />
+    <Compile Include="Social\OAuth2\AbstractOAuth2ApiBinding.cs" />
+    <Compile Include="Social\OAuth2\AbstractOAuth2ServiceProvider.cs" />
+    <Compile Include="Social\OAuth2\AccessGrant.cs" />
+    <Compile Include="Social\OAuth2\GrantType .cs" />
+    <Compile Include="Social\OAuth2\IOAuth2Operations.cs" />
+    <Compile Include="Social\OAuth2\IOAuth2ServiceProvider.cs" />
+    <Compile Include="Social\OAuth2\OAuth2Parameters.cs" />
+    <Compile Include="Social\OAuth2\OAuth2RequestInterceptor.cs" />
+    <Compile Include="Social\OAuth2\OAuth2Template.cs" />
+    <Compile Include="Social\OAuth2\OAuth2Version.cs" />
+    <Compile Include="Social\SocialException.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

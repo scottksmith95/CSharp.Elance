@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharp.Elance", "CSharp.Elance\CSharp.Elance.csproj", "{402E5535-DBD2-4D5A-A466-8A3ED6EAF4F3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharp.Elance.MVC 3 Example", "CSharp.Elance.MVC 3 Example\CSharp.Elance.MVC 3 Example.csproj", "{434C1742-DC8B-4985-995F-90F2D390A7D5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Spring.Social.Core.2010-NET40", "Spring.Social.Core\Spring.Social.Core.2010-NET40.csproj", "{04F79EC0-1F18-18D3-3F4B-01CFAE04EFBC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{402E5535-DBD2-4D5A-A466-8A3ED6EAF4F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{402E5535-DBD2-4D5A-A466-8A3ED6EAF4F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{402E5535-DBD2-4D5A-A466-8A3ED6EAF4F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{402E5535-DBD2-4D5A-A466-8A3ED6EAF4F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{434C1742-DC8B-4985-995F-90F2D390A7D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{434C1742-DC8B-4985-995F-90F2D390A7D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{434C1742-DC8B-4985-995F-90F2D390A7D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{434C1742-DC8B-4985-995F-90F2D390A7D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04F79EC0-1F18-18D3-3F4B-01CFAE04EFBC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04F79EC0-1F18-18D3-3F4B-01CFAE04EFBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04F79EC0-1F18-18D3-3F4B-01CFAE04EFBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04F79EC0-1F18-18D3-3F4B-01CFAE04EFBC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

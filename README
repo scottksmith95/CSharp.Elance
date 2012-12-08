@@ -1,0 +1,15 @@
+CSharp.Elance is a C# .NET wrapper for the Elance RESTful API.
+
+It contains the following
+
+  * OAuth connection support for Elance
+  * API access via explicit Urls and response handling for Elance
+  * ASP.NET MVC 3 example project
+
+The following will be added
+
+  * API binding for Elance
+  * Console application example project
+
+API documentation can be found here: https://www.elance.com/q/api2
+NuGet package can be found here: https://nuget.org/packages/CSharp.Elance
